@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source code.iml" filepath="$PROJECT_DIR$/source code.iml" />
+      <module fileurl="file://C:\source code\vault-antivirus-update-v3.iml" filepath="C:\source code\vault-antivirus-update-v3.iml" />
+    </modules>
+  </component>
+</project>

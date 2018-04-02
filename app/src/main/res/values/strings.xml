@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string formatted="false" name="app_full_name">صرفه جویی در مصرف باتری</string>
+  <string formatted="false" name="app_launcher_name">صرفه جویی در مصرف باتری</string>
+  <string formatted="false" name="settings_activity_subtitle">تنظیمات</string>
+  <string formatted="false" name="help_activity_subtitle">راهنما</string>
+  <string formatted="false" name="log_view_activity_subtitle">خطاها</string>
+  <string formatted="false" name="app_full_name_free">صرفه جویی در مصرف باتری</string>
+  <string formatted="false" name="battery_use_b">نمایش مصرف باتری</string>
+  <string formatted="false" name="upgrade_donate_b">ارتقا...</string>
+  <string formatted="false" name="circle_widget">محدودیت مصرف باتری</string>
+  <string formatted="false" name="full_widget">باتری فول است</string>
+  <string formatted="false" name="confirm_disable_hint">
+    Hint: Disable this confirmation dialog in the settings...
+  </string>
+  <string formatted="false" name="yes">بله</string>
+  <string formatted="false" name="cancel">لغو</string>
+  <string formatted="false" name="confirm_close">ایا واقعا خارج می شوید؟</string>
+  <string formatted="false" name="confirm_close_hint">
+    ذخیره باتری will be completely closed, and you won\'t see it
+    in your status bar any more.  Any desktop widgets will be useless.\n
+
+    \nIf you just want to leave the main window and keep the service
+    running, press Cancel and then just press your device\'s BACK
+    button to leave the main window.\n
+
+    \nIf you want to hide the notification but keep widgets running,
+    press Cancel and then run the Notification Wizard to hide the notification.
+  </string>
+  <string formatted="false" name="notification_wizard_title">
+    How would you like to see the main ذخیره باتری notification?
+  </string>
+  <string formatted="false" name="notification_wizard_title_default">Default</string>
+  <string formatted="false" name="notification_wizard_title_minimal">Minimal</string>
+  <string formatted="false" name="notification_wizard_title_none">None</string>
+  <string formatted="false" name="notification_wizard_summary_default">
+    Battery percentage in status bar in addition to tray notification
+  </string>
+  <string formatted="false" name="notification_wizard_summary_minimal">
+    Just notification in tray, nothing in status bar
+  </string>
+  <string formatted="false" name="requires_api_level_16">(Requires Android 4.1+)</string>
+  <string formatted="false" name="notification_wizard_summary_none">
+    For those who only use the desktop widgets and/or main screen
+  </string>
+  <string formatted="false" name="notifications_disabled">Notifications are disabled!</string>
+  <string formatted="false" name="notifications_disabled_message">
+    You have blocked all notifications for ذخیره باتری.  This will
+    prevent ذخیره باتری from showing any notifications: the main
+    notification and any alarms you have set will all be blocked.\n
+
+    \nSince ذخیره باتری already allows you to turn the main
+    notification on or off as well as temporarily disable any alarms
+    you\'ve created, it is stongly recommended that you unblock the
+    ذخیره باتری notifications.  While they are blocked, it will appear
+    that ذخیره باتری is broken.\n
+
+    \nPlease press OK to be taken to the system settings where you can
+    unblock notifications for ذخیره باتری.
+  </string>
+  <string formatted="false" name="main_notif_chan_name">هشدار ها</string>
+  <!--string formatted="false" name="main_notif_chan_desc">Channel for the main ذخیره باتری notification</string-->
+  <string formatted="false" name="confirm_clear_logs">همه خطاها پاک شوند؟</string>
+  <string formatted="false" name="configure_log_filter">نمایش موارد ورودی</string>
+  <string formatted="false" name="confirm_ten_percent_enable">حالت 10 درصد را فعال می کنید؟</string>
+  <string formatted="false" name="confirm_ten_percent_disable">حالت 10 درصد را غیرفعال می کنید؟</string>
+  <string formatted="false" name="confirm_ten_percent_hint">
+    Warning: Changing this setting (both enabling and disabling it)
+    will reset your color settings.\n
+
+    \nIf you have a Motorola Droid, Droid X, Droid 2, Defy,
+    or Samsung Moment, you should turn
+    this on when you first get the app, and then leave it alone.  All
+    other devices, as far as I know, should always leave this off.
+  </string>
+  <string formatted="false" name="okay">اوکی</string>
+  <string formatted="false" name="none">هیچ یک</string>
+  <string formatted="false" name="tab_current_info">اطلاعات فعلی</string>
+  <string formatted="false" name="tab_history">تاریخچه</string>
+  <string formatted="false" name="notification_until_charged">" تا زمانی که شارژ شود"</string>
+  <string formatted="false" name="notification_until_drained">" ترک کرد"</string>
+  <string formatted="false" name="activity_until_charged">تا زمانی که شارژ شود</string>
+  <string formatted="false" name="activity_until_drained">تا زمانی که باتری تخلیه شود</string>
+  <string formatted="false" name="menu_settings">تنظیمات</string>
+  <string formatted="false" name="menu_close">بستن</string>
+  <string formatted="false" name="menu_help">راهنما</string>
+  <string formatted="false" name="menu_rate_and_review">نرخ</string>
+  <string formatted="false" name="menu_notification_wizard">هشدار</string>
+  <string formatted="false" name="menu_clear">پاک کردن</string>
+  <string formatted="false" name="menu_reverse">بلعکس</string>
+  <string formatted="false" name="menu_log_filter">فیلترکردن</string>
+  <string formatted="false" name="menu_export">خروجی</string>
+  <string formatted="false" name="menu_delete_alarm">حذف هشدار ها</string>
+  <string formatted="false" name="menu_get_plugins">دریافت پلاگین ها</string>
+  <string formatted="false" name="percent_symbol">%</string>
+  <string formatted="false" name="degree_symbol">°</string>
+  <string formatted="false" name="fahrenheit">فارنهایت</string>
+  <string formatted="false" name="fahrenheit_symbol">F</string>
+  <string formatted="false" name="celsius">Celsius</string>
+  <string formatted="false" name="celsius_symbol">C</string>
+  <string formatted="false" name="volt_symbol">V</string>
+  <string formatted="false" name="fully_charged_in">شارژ کامل انجام شد</string>
+  <string formatted="false" name="light_usage">استفاده از نور چپ</string>
+  <string formatted="false" name="normal_usage">استفاده معمولی از چپ</string>
+  <string formatted="false" name="heavy_usage">استفاده سنگین چپ</string>
+  <string formatted="false" name="constant_usage">Constant Usage Left:</string>
+  <string formatted="false" name="press_back_to_leave">برای ترک برگردانید.</string>
+  <string formatted="false" name="press_menu_for_more">برای موارد بیشتر منو را بکشید</string>
+  <string formatted="false" name="inaccessible_storage">کارت حافظه غیر قابل دسترسی است</string>
+  <string formatted="false" name="inaccessible_w_reason"> کارت حافظه غیر قابل دسترسی است</string>
+  <string formatted="false" name="read_only_storage">کارت حافظه فقط قابل استفاده است</string>
+  <string formatted="false" name="no_storage_permission">اجازه ذخیره سازی داده نشده</string>
+  <string formatted="false" name="file_written">فایل با موفقیت به ریشه از کارت SD نوشته شده است.</string>
+  <!-- These are used for the CSV export. -->
+  <string formatted="false" name="date">تاریخ</string>
+  <string formatted="false" name="time">زمان</string>
+  <string formatted="false" name="status">وضعیت</string>
+  <string formatted="false" name="charge">charge_percentage</string>
+  <string formatted="false" name="temperature">degrees_celsius</string>
+  <string formatted="false" name="temperature_f">degrees_fahrenheit</string>
+  <string formatted="false" name="voltage">ولت</string>
+  <string formatted="false" name="current">میلی امپر</string>
+  <string formatted="false" name="status_unplugged">جداشده</string>
+  <string formatted="false" name="status_unknown">ناشناخته</string>
+  <string formatted="false" name="status_charging">شارژ</string>
+  <string formatted="false" name="status_discharging">تخلیه</string>
+  <string formatted="false" name="status_not_charging">شارژ نمی شود</string>
+  <string formatted="false" name="status_fully_charged">شارژ کامل شد</string>
+  <string formatted="false" name="status_plugged_in">پلاگین در</string>
+  <string formatted="false" name="status_boot_completed">بوت کامل شد</string>
+  <string formatted="false" name="health_unknown">ناشناخته</string>
+  <string formatted="false" name="health_good">بهداشت خوب</string>
+  <string formatted="false" name="health_overheat">گرم شدن</string>
+  <string formatted="false" name="health_dead">مرده</string>
+  <string formatted="false" name="health_overvoltage">اولویت</string>
+  <string formatted="false" name="health_failure">Failure</string>
+  <string formatted="false" name="health_cold">سرد</string>
+  <string formatted="false" name="plugged_unplugged">Unplugged</string>
+  <string formatted="false" name="plugged_ac">(AC)</string>
+  <string formatted="false" name="plugged_usb">(یو اس بی)</string>
+  <string formatted="false" name="plugged_unknown">(?)</string>
+  <string formatted="false" name="plugged_wireless">(بی سیم)</string>
+  <string formatted="false" name="alarm_type_fully_charged">کاملا شارژ شده است</string>
+  <string formatted="false" name="alarm_type_charge_drops">شارژ در حال کاهش</string>
+  <string formatted="false" name="alarm_type_charge_rises">شارژ در حال افزایش</string>
+  <string formatted="false" name="alarm_type_temperature_rises">درحال بالا رفتن دما</string>
+  <string formatted="false" name="alarm_type_health_failure">شکست سلامت</string>
+  <string formatted="false" name="alarm_type_entry_fully_charged">کامل شارژ شد</string>
+  <string formatted="false" name="alarm_type_entry_charge_drops">شارژ پایینتر از ......</string>
+  <string formatted="false" name="alarm_type_entry_charge_rises">شارژ بالاتر از ......</string>
+  <string formatted="false" name="alarm_type_entry_temperature_rises">دمای بالاتر از...</string>
+  <string formatted="false" name="alarm_type_entry_health_failure">سلامت در خط  است</string>
+  <string formatted="false" name="alarm_fully_charged">باتری در حال حاضر کاملا شارژ شده است</string>
+  <string formatted="false" name="alarm_charge_drops">"شارژ باتری پایین است"</string>
+  <string formatted="false" name="alarm_charge_rises">"شارژ باتری بالا است"</string>
+  <string formatted="false" name="alarm_temp_rises">"دمای باتری بالاتر است"</string>
+  <string formatted="false" name="alarm_health_failure">"سلامت باتری:"</string>
+  <string formatted="false" name="alarm_text">الارم ها را برای ویرایش انتخاب کنید</string>
+  <!--string formatted="false" name="alarm_audio_stream_notification">Notification</string>
+    <string formatted="false" name="alarm_audio_stream_alarm">Alarm</string>
+    <string formatted="false" name="pref_alarm_audio_stream">Audio Stream</string>
+    <string formatted="false" name="pref_alarm_audio_stream_summary">Use audio stream:</string-->
+  <string formatted="false" name="logs_empty">بدون خطا</string>
+  <plurals name="n_log_items">
+    <item quantity="one">%d Log Item</item>
+    <item quantity="other">%d Log Items</item>
+  </plurals>
+  <string formatted="true" name="after_n_hours_unplugged">بعد از٪ 1.1 ساعت فلاش</string>
+  <string formatted="true" name="after_n_hours_plugged_in">بعد از٪ 1.1 ساعت در ساعت وصل شد</string>
+  <plurals name="n_hours_long">
+    <item quantity="one">"٪ d ساعت"</item>
+    <item quantity="other">"٪ d ساعت"</item>
+  </plurals>
+  <plurals name="n_minutes_long">
+    <item quantity="one">٪ d دقیقه</item>
+    <item quantity="other">٪ d دقیقه</item>
+  </plurals>
+  <plurals name="n_hours_medium">
+    <item quantity="one">"٪ d hr"</item>
+    <item quantity="other">"٪ d ساعت"</item>
+  </plurals>
+  <plurals name="n_minutes_medium">
+    <item quantity="one">٪ d دقیقه.</item>
+    <item quantity="other">٪ d دقیقه</item>
+  </plurals>
+  <plurals name="n_hours_short">
+    <item quantity="other">"%dh "</item>
+  </plurals>
+  <plurals name="n_minutes_short">
+    <item quantity="other">%dm</item>
+  </plurals>
+  <plurals name="n_days">
+    <item quantity="one">"٪ d روز"</item>
+    <item quantity="other">"٪ d روز"</item>
+  </plurals>
+  <plurals name="n_hours">
+    <item quantity="one">٪ d ساعت</item>
+    <item quantity="other">٪ d ساعت</item>
+  </plurals>
+  <string formatted="false" name="discharging_from">تخلیه از</string>
+  <string formatted="false" name="charging_from">شارژ از</string>
+  <string formatted="false" name="fully_charged">کاملا شارژ شده</string>
+  <string formatted="false" name="since">از آنجا که</string>
+  <plurals name="for_n_hours">
+    <item quantity="one">برای٪ d ساعت</item>
+    <item quantity="other">برای٪ d ساعتs</item>
+  </plurals>
+  <string name="dialog_color_picker">رنگ را انتخاب کنید</string>
+  <string name="press_color_to_apply">رنگ قدیمی یا جدیدی را اعمال کنید:</string>
+  <string formatted="false" name="currently_using">در حال حاضر با استفاده از</string>
+  <string formatted="false" name="currently_set_to">"در حال حاضر به:"</string>
+  <string formatted="false" name="currently_disabled">در حال حاضر غیر فعال است</string>
+  <string formatted="false" name="help_cat_version">نسخه</string>
+  <string formatted="false" name="help_cat_changelog">تغییرات</string>
+  <string formatted="false" name="help_changelog">
+    Please see the <a href="https://www.batterybot.info/changelog">تغییرات آنلاین</a>.
+  </string>
+  <string formatted="false" name="help_cat_faq">سوالات متداول</string>
+  <string formatted="false" name="help_faq">
+    Please see the <a href="https://www.google.com">آنلاین پرسش و پاسخ</a>.
+  </string>
+  <string formatted="false" name="help_cat_google_plus">گوگل پلاس صفحه</string>
+  <string formatted="false" name="help_google_plus">
+    در نظر بگیرید
+    folowing the <a href="https://www.google.com/+BatterybotInfoAndroid">صفحه گوگل پلاس</a>
+    for announcements and polls.
+  </string>
+  <string formatted="false" name="help_cat_privacy">حریم خصوصی</string>
+  <string formatted="false" name="help_privacy">
+    ذخیره باتری does not collect, store, or transmit any personal information.
+  </string>
+  <string formatted="false" name="help_cat_no_warranty">بدون ضمانت</string>
+  <string formatted="false" name="help_no_warranty">
+    This software is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n
+
+    \nWhile I do my best to make sure that it works well and does not
+    cause problems, I am not responsible for any damage or inconvenience
+    it may cause under any circumstance.
+  </string>
+  <string formatted="false" name="pref_hint">Hint: Press MENU for help.</string>
+  <string formatted="false" name="settings_overview">Overview</string>
+  <string formatted="false" name="settings_overview_help">
+    The settings are organized into separate pages, as described
+    below.  Each page has its own help page describing the settings on
+    that page.  Simply press MENU then Help (on tablets, MENU isn\'t necessary) to get
+    help from whatever settings page you are on.
+  </string>
+  <string formatted="false" name="notification_settings">اعلان اصلی</string>
+  <string formatted="false" name="notification_settings_summary">پیکربندی اعلان اصلی</string>
+  <string formatted="false" name="notification_settings_help">
+    You can configure which content to show in the pull-down notification and control its appearance.
+  </string>
+  <string formatted="false" name="status_bar_icon_settings">آیکون اصلی اعلان</string>
+  <string formatted="false" name="status_bar_icon_settings_summary">مجموعه آیکون های کنترل</string>
+  <string formatted="false" name="status_bar_icon_settings_help">
+    You can select which icon set to use and change the settings for the icon set (e.g., colors).
+  </string>
+  <string formatted="false" name="current_hack_settings">Current (mA) Hack</string>
+  <string formatted="false" name="current_hack_settings_summary">تنظیمات پیشرفته برای فعلا کردن ma</string>
+  <string formatted="false" name="current_hack_settings_help">
+    Android does NOT provide a means for apps to access information
+    about the battery current.  However, a hack is available
+    that allows many devices to potentially get this information.\n
+
+    \nThis is NOT guaranteed to work.  It may not work at all or it
+    may appear to work but only result in nonsense values.\n
+
+    \nSettings to turn on the hack, if possible, and control how it is
+    used are available in this section.
+  </string>
+  <string formatted="false" name="alarm_settings_subtitle">تنظیمات هشدار ها</string>
+  <string formatted="false" name="alarm_settings">هسدار ها</string>
+  <string formatted="false" name="alarm_settings_summary">Control notifications for low/full battery</string>
+  <string formatted="false" name="alarm_settings_help">
+    You can have ذخیره باتری notify you when your battery level
+    reaches a certain point (e.g., the battery becomes fully charged,
+    the battery level drops below 20%).
+  </string>
+  <string formatted="false" name="other_settings">تنظیمات غیره</string>
+  <string formatted="false" name="other_settings_help">تمام تنظیمات دیگر در این صفحه، از جمله ورود به سیستم، صفحه نمایش قفل، واحد درجه حرارت، خودکار راه اندازی، و غیره است.</string>
+  <string formatted="false" name="pref_cat_more_settings_in_pro">بقیه تنظیمات در نسخه نهایی</string>
+  <string formatted="false" name="pref_please_upgrade">
+    The Pro version has many more settings and features, including
+    current (mA) information,
+    colorful icons, alarms,
+    battery state logging,
+    and more.
+  </string>
+  <string formatted="false" name="add_alarm">اضافه کردن هشدار</string>
+  <string formatted="false" name="pref_cat_notification_layout">Layout</string>
+  <string formatted="false" name="pref_use_system_notification_layout">Use System Layout</string>
+  <string formatted="false" name="pref_use_system_notification_layout_summary">Use system notification layout rather than custom BatteryBot layout?</string>
+  <string formatted="false" name="pref_use_system_notification_layout_help">
+    If enabled, the system notification layout will be used instead of
+    ذخیره باتری\'s custom layout. The system layout is less
+    customizable, but a small minority of devices don\'t report
+    default colors properly, making the custom layout ugly or hard to
+    read. Other devices use an unusual layout, making the custom
+    layout not fit in. Selecting this option will ensure that the
+    notification will look like any other notification.\n
+
+    \nNote that this will result in having the status bar icon used in
+    the notification.
+  </string>
+  <string formatted="false" name="pref_cat_notification_content">Content</string>
+  <string formatted="false" name="pref_icon_area_content">Icon Area Content</string>
+  <string formatted="false" name="pref_icon_area_content_help">
+    Choose what you wish to see at the left end of the notification in the icon area.
+    You can have just the battery graphic, just the textual charge percentage, or both, in either order.
+  </string>
+  <string formatted="false" name="battery_graphic">Battery Graphic</string>
+  <string formatted="false" name="charge_percentage">Charge Percentage</string>
+  <string formatted="false" name="percentage_first">Percentage, Battery</string>
+  <string formatted="false" name="battery_first">Battery, Percentage</string>
+  <string formatted="false" name="pref_top_line_content">Top Line Content</string>
+  <string formatted="false" name="pref_top_line_content_help">
+    Configure what goes in the top line of the notification: estimated
+    time remaining (configurable elsewhere), how long since the status
+    has changed (plugged in, unplugged, or fully charged), or the
+    battery vital signs (battery health, temperature, and voltage).
+  </string>
+  <string formatted="false" name="pref_bottom_line_content">Bottom Line Content</string>
+  <string formatted="false" name="pref_bottom_line_content_help">
+    You have the same options for the bottom line as for the top line.
+  </string>
+  <string formatted="false" name="time_remaining">Time Remaining</string>
+  <string formatted="false" name="time_since_status_change">Time Since Status Change</string>
+  <string formatted="false" name="vital_signs">Vital Signs</string>
+  <string formatted="false" name="pref_time_remaining_verbosity">Time Remaining Verbosity</string>
+  <string formatted="false" name="pref_time_remaining_verbosity_help">
+    Devices come in all shapes and sizes, so most translations need to
+    use abbreviations to ensure that the time-remaining estimate fits
+    comfortably in the notification area.  If it still doesn\'t fit,
+    you can opt for the condensed format.  If you have plenty of room,
+    you might prefer the verbose setting.
+  </string>
+  <string formatted="false" name="condensed">Condensed</string>
+  <string formatted="false" name="normal">Normal</string>
+  <string formatted="false" name="verbose">Verbose</string>
+  <string formatted="false" name="pref_status_duration_in_vital_signs">Status Duration in Vital Signs</string>
+  <string formatted="false" name="pref_status_duration_in_vital_signs_summary">
+    Include Time Since Status Change in Vital Signs?
+  </string>
+  <string formatted="false" name="pref_status_duration_in_vital_signs_help">
+    If set, the vital signs line will also include the number of hours
+    since the device became unplugged, plugged in, or fully charged.
+  </string>
+  <string formatted="false" name="pref_cat_notification_appearance">Appearance</string>
+  <string formatted="false" name="pref_cat_notification_appearance_help">
+    You can override the colors for the notification text if the defaults are hard to read
+    or if you just prefer something different.  You can also choose to override whether or not
+    to show a box around the icon area.
+  </string>
+  <string formatted="false" name="pref_notification_percentage_text_color">Percentage Text Color</string>
+  <string formatted="false" name="pref_custom_percentage_text_color">Custom Percentage Color</string>
+  <string formatted="false" name="pref_notification_top_line_color">Top Line Text Color</string>
+  <string formatted="false" name="pref_custom_top_line_color">Custom Top Line Color</string>
+  <string formatted="false" name="pref_notification_bottom_line_color">Bottom Line Text Color</string>
+  <string formatted="false" name="pref_custom_bottom_line_color">Custom Bottom Line Color</string>
+  <string formatted="false" name="pref_show_box_around_icon_area">Show Box Around Icon Area</string>
+  <string formatted="false" name="pref_show_box_around_icon_area_summary">
+    Show background color box in icon area?
+  </string>
+  <string formatted="false" name="system_default">سیستم پیشفرض</string>
+  <string formatted="false" name="black">بلاک</string>
+  <string formatted="false" name="white">White</string>
+  <string formatted="false" name="ics_blue">Android ICS Blue</string>
+  <string formatted="false" name="custom">Custom...</string>
+  <string formatted="false" name="pref_cat_notification_priority">Notification Priority</string>
+  <string formatted="false" name="pref_cat_notification_priority_help">
+    On Jelly Bean and up (Android 4.1 and over), notifications can have a priority set.
+    The effect(s) of changing the priority are not guaranteed, but in general:\n
+
+    \n• Setting it to \"Minimum\" should in most cases remove the status bar icon but
+    still show the notification in the pull-down notification tray.\n
+
+    \n• Setting it to \"Low\" should allow other notifications, such as new email, to appear
+    above the ذخیره باتری notification. This is nice in cases like email where the
+    notification is expandable (expandable notifications are automatically expanded when
+    they are the top notification).\n
+
+    \nPriorities \"Default\" and above seem to usually leave ذخیره باتری as the top
+    notification, but I imagine there are edge cases where the higher priorities make a difference.\n
+
+    \nAgain, the exact behavior may vary between devices and is not guaranteed.
+  </string>
+  <string formatted="false" name="pref_main_notification_priority">Main Notification Priority</string>
+  <string formatted="false" name="pref_main_notification_priority_help">
+    Set the priority of the main notification.  Alarms, plugins, and any other notifications are not
+    affected by this setting, but they may in the future have configurable priority.
+  </string>
+  <string formatted="false" name="pref_cat_icon_set">Icon Set</string>
+  <string formatted="false" name="pref_icon_set">Icon Set</string>
+  <string formatted="false" name="pref_icon_set_help">
+    Android comes in many flavors, so there is no one perfect icon set
+    that works well on every device.  Pro users can use plugins to get
+    more options, but there are now three built-in icon sets that
+    should provide at least one good option for virtually every
+    device.\n
+
+    \n\"Classic\" is the original icon set from 2009.  It is still the
+    best on older devices, but newer versions of Android (starting
+    with Android 3.0, Honeycomb) shrink and dim the notification icons,
+    making this set very difficult to read.\n
+
+    \n\"Plain number\" is the default for all newer Android devices.
+    It is a very large white number that shows up well even after
+    being shrunk and dimmed.  It shows a lightning bolt under the
+    number during charging.\n
+
+    \n\"Smaller number\" is like \"Plain number\" but smaller, because
+    some newer devices do not actually shrink the icon like stock
+    Android does, and the very large number in \"Plain Number\" can
+    appear comically large on these devices.\n
+
+    \nIf you have any ذخیره باتری Pro icon plugins installed
+    (press MENU, then Get Plugins to get free plugins, or just press
+    the Get Plugins button on the Action Bar on newer devices), you
+    can choose among them here.
+  </string>
+  <string formatted="false" name="pref_cat_current_hack_main">Main Control</string>
+  <string formatted="false" name="pref_cat_current_hack_unsupported">Current (mA) Hack Unsupported</string>
+  <string formatted="false" name="pref_current_hack_unsupported">Sorry, the current (mA) hack is not supported on this device.</string>
+  <string formatted="false" name="current_hack_maybe_supported">The hack MIGHT work on this device.</string>
+  <string formatted="false" name="pref_enable_current_hack">Enable hack</string>
+  <string formatted="false" name="pref_enable_current_hack_summary">
+    Attempt to enable the current (mA) hack?
+  </string>
+  <string formatted="false" name="pref_enable_current_hack_help">
+    When this setting is enabled, the other options regarding the
+    hack will be usable.
+  </string>
+  <string formatted="false" name="pref_current_hack_prefer_fs">Prefer old hack method</string>
+  <string formatted="false" name="pref_current_hack_prefer_fs_summary">
+    Prefer older, filesystem-based hack method?
+  </string>
+  <string formatted="false" name="pref_current_hack_prefer_fs_help">
+    Starting in Lollipop (Android 5.0), Android now provides a
+    somewhat less hackish way to access current (mA) information,
+    directly from the system BatteryManager.  However, it is still not
+    guaranteed to work at all or to work well.  Until Android Nougat
+    (Android 7.0), the old (filesystem-based) hack method seems to
+    work better on most devices, so it remains the default on devices
+    running less than Android 7.0.\n
+
+    \nThis setting is just a hint to the hack about which method to
+    prefer; you can try changing it if the hack isn\'t working well on
+    your device.
+  </string>
+  <string formatted="false" name="pref_cat_current_hack_notification">Notification</string>
+  <string formatted="false" name="pref_display_current_in_vital_stats">Display in vital stats</string>
+  <string formatted="false" name="pref_display_current_in_vital_stats_summary">
+    Display current (mA) in main notification vital stats?
+  </string>
+  <string formatted="false" name="pref_display_current_in_vital_stats_help">
+    When enabled, the hack will be attempted and will display the
+    result in the main notification vital stats line.  Note that you
+    must have the main notification configured to display vital stats
+    in order to see this.  This value will only refresh when the
+    system sends new battery information.\n
+
+    \nOn most devices, a negative value indicates a net drain from the
+    battery and a positive value indicates that the battery is being
+    charged.  Not all devices generate values this way, however.
+  </string>
+  <string formatted="false" name="pref_cat_current_hack_main_window">Main Window</string>
+  <string formatted="false" name="pref_display_current_in_main_window">Display in main window</string>
+  <string formatted="false" name="pref_display_current_in_main_window_summary">
+    Display current (mA) in main window?
+  </string>
+  <string formatted="false" name="pref_display_current_in_main_window_help">
+    When enabled, the hack will be attempted and will display the
+    result in the main window.  This value will be refreshed whenever
+    the system sends new battery information, but you can refresh the
+    value at any time by simply tapping the displayed value.  (Note
+    that some devices rarely or never update the underlying data, so
+    the value may not appear to change on tap.)\n
+
+    \nOn most devices, a negative value indicates a net drain from the
+    battery and a positive value indicates that the battery is being
+    charged.  Not all devices generate values this way, however.
+  </string>
+  <string formatted="false" name="pref_prefer_current_avg_in_vital_stats">Prefer average in vital stats</string>
+  <string formatted="false" name="pref_prefer_current_avg_in_vital_stats_summary">
+    Try to use current_avg in main notification vital stats?
+  </string>
+  <string formatted="false" name="pref_prefer_current_avg_in_main_window">Prefer average in main window</string>
+  <string formatted="false" name="pref_prefer_current_avg_in_main_window_summary">
+    Try to use current_avg in main window?
+  </string>
+  <string formatted="false" name="pref_prefer_current_avg_help">
+    Some systems have a further hack available, giving a recent
+    average of the current rather than an instantaneous reading of it.
+    What this means varies from device to device and is only available
+    on some devices.  This may give a more stable value (if all goes
+    well), it may return the same value, or it may return an unusable
+    value (in which case you should turn this option off).
+  </string>
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window">Auto-refresh mA in main window</string>
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window_summary">
+    Auto-refresh mA every two seconds?
+  </string>
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window_help">
+    If you have the hack set to display mA in the main window, you can
+    refresh the value by simply tapping it.  If you want to see
+    frequent updates without having to tap, you can enable this option
+    to auto-refresh the value every two seconds while the window is visible.\n
+
+    \nNote that some devices rarely or never update the underlying
+    data, so the value may not appear to change even though the app is
+    refreshing the displayed value to match the data retrieved from
+    the system.
+  </string>
+  <string formatted="false" name="pref_cat_charging_indicator">Charging Indicator</string>
+  <string formatted="false" name="pref_indicate_charging">Indicate Charging</string>
+  <string formatted="false" name="pref_indicate_charging_summary">ایکون تغییر را هنگام شارژ شدن نمایش دهیم</string>
+  <string formatted="false" name="pref_indicate_charging_help">
+    Some icon sets indicate when the battery is being charged, for
+    example by showing a lightning bolt below the number.  Disable
+    this setting if you would prefer it not to do that.
+  </string>
+  <string formatted="false" name="pref_cat_logging">درحال بارگیری</string>
+  <string formatted="false" name="pref_enable_logging">فعالسازی خطایاب</string>
+  <string formatted="false" name="pref_enable_logging_summary">تغییرات وضعیت باتری بایگانی شود؟</string>
+  <string formatted="false" name="pref_enable_logging_help">اگر فعال گردد، ذخره کننده باتری تغییرات وضعیت باتری شما را ثبت می کند</string>
+  <string formatted="false" name="pref_max_log_age">حداکثر عمر ثبت لاگ</string>
+  <string formatted="false" name="pref_max_log_age_summary">پاک کردن لاگ های قدیمی تر از:</string>
+  <string formatted="false" name="pref_max_log_age_help">اگر ثبت وقایع فعال باشد، هنگامی که دستگاه خود را به شارژ می زنید، لاگ های قدیمی تر از این پاک خواهند شد</string>
+  <string formatted="false" name="pref_notify_status_duration">نمایش مدت وضعیت</string>
+  <string formatted="false" name="pref_notify_status_duration_summary">نمایش زمان آخرین تغییر وضعیت بجای تخمین زمان باقیمانده؟</string>
+  <string formatted="false" name="pref_notify_status_duration_help">این امکان را در صورتی فعال کنید که ترجیح می دهید که اعلان اصلی زمان آخرین تغییرات را نشان دهد (مثلا به مدت 5 ساعت است که شارژ نشده است) بجای آنکه تخمین زمان باقیمانده را نشان دهد. هر دو بخش اطلاعات در پنجره اصلی در دسترس هستند</string>
+  <string formatted="false" name="pref_cat_temperature_unit">واحد دما</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit">تبدیل به فارنهایت</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit_help">اندروید درجه حرارت باتری را به دمای سلسیوس گزارش می دهد. اگر ترجیح می دهید به فارنهایت باشد، این گزینه را فعال کنید.</string>
+  <string formatted="false" name="pref_cat_autostart">شروع خودکار</string>
+  <string formatted="false" name="pref_autostart_at_boot">شروع خودکار هنگام بوت</string>
+  <string formatted="false" name="pref_autostart_at_boot_summary">شروع نگه دارنده باتری هنگام بوت شدن دستگاه</string>
+  <string formatted="false" name="pref_autostart_at_boot_help">
+    Controls whether ذخیره باتری should start itself
+    automatically when the device boots up.\n
+
+    \nThe \"If Running on Shutdown\" option works with regard to
+    whether you\'ve most recently manually started or stopped ذخیره باتری.
+    So if you kill ذخیره باتری through some other
+    means, like a task killer, then ذخیره باتری doesn\'t know
+    you stopped it, and it will still start at boot up if you have it
+    set to this.\n
+
+    \nNOTE: Android will always start ذخیره باتری on boot if you have an
+    ذخیره باتری desktop widgets.  In that case this settings is irrelevant.
+  </string>
+  <string formatted="false" name="predictor_sensitive">حساس</string>
+  <string formatted="false" name="predictor_conservative">Conservative</string>
+  <string formatted="false" name="predictor_since_status_change">از زمان تغییر وضعیت</string>
+  <string formatted="false" name="predictor_long_term_ave">میانگین بلند مدت</string>
+  <string formatted="false" name="pref_cat_predictor">تخمین های زمان باقیمانده</string>
+  <string formatted="false" name="pref_prediction_type">نوع تخمین</string>
+  <string formatted="false" name="pref_prediction_type_help">
+    Here you can select how ذخیره باتری Pro will predict your remaining
+    battery life / time until fully charged.\n
+
+    \nThe \"Sensitive\" algorithm is strictly based on your last five
+    minutes of usage.  If your primary concern is \"How long will my
+    battery last if I keep doing what I\'m doing?\" then this is the
+    algorithm for you.\n
+
+    \nThe \"Conservative\" algorithm is the default.  It is also based
+    on recent usage, but it tries not to vary from your long-term
+    average too freely.\n
+
+    \nSelect \"Since Status Change\" to have the prediction based
+    strictly on your current session.\n
+
+    \nFinally, you can have the prediction based solely on your
+    long-term average usage.
+  </string>
+  <string formatted="false" name="lang_system_selected">سیستم انتخاب شده</string>
+  <string formatted="false" name="pref_cat_language">زبان</string>
+  <string formatted="false" name="pref_language_override">برتری زبانی</string>
+  <string formatted="false" name="pref_language_override_summary">انتخاب زبان:</string>
+  <string formatted="false" name="pref_language_override_help">
+    If the translation to your language is incomplete or inaccurate
+    and you would prefer another, possibly better translation, you may
+    choose to do so here.
+  </string>
+  <string formatted="false" name="pref_cat_plugin_settings">تنظیمات پلاگین</string>
+  <string formatted="false" name="pref_plugin_settings">تنظیمات پلاگین</string>
+  <string formatted="false" name="pref_plugin_settings_summary">ویرایش تنظیمات برای این پلاگین</string>
+  <string formatted="false" name="pref_classic_color_mode">اجبار کردن حالت رنگ کلاسیک</string>
+  <string formatted="false" name="pref_classic_color_mode_summary">این معمولا کار نمی کند؛ راهنما را بخوانید.</string>
+  <string formatted="false" name="pref_classic_color_mode_help">
+    Starting with Android 5.0 (Lollipop), colored notification icons
+    officially no longer work on Android, making the Classic icon show
+    up as solid white. So by default, on these devices the app uses a
+    plain white outline with white number.\n
+
+    \nHowever, not all devices follow the spec, so this is not
+    necessary and does not work correctly everywhere.  You can try to
+    make the Classic icon set work in the classic way by turning this
+    option on.  Remember, on most devices this will just make the icon
+    turn solid white.
+  </string>
+  <string formatted="false" name="pref_cat_color">رنگ آیکون</string>
+  <string formatted="false" name="pref_cat_color_help">
+    In order to keep the binary package for ذخیره باتری
+    reasonably small, there are some limitations for the colors.  At
+    the time of writing, you can have a red icon as high as 30%, an
+    amber icon as high as 50%, and a green icon as low as 20%.  I
+    think these are reasonable compromises that should work for 99% of
+    users.\n
+
+    \nTo give you maximum control, the colors can be turned on or off
+    independently.  This means that you can have as much as a
+    four-tiered color scheme, where the icon is green when it is very
+    full, then grayscale, then amber, then red.  Of course, most
+    people probably have the amber and green thresholds set to the
+    same value, so that the icon is never grayscale.
+  </string>
+  <string formatted="false" name="pref_color_preview">پیش نمایش رنگ</string>
+  <string formatted="false" name="pref_color_preview_help">
+    The color preview will hopefully make it really easy to visualize
+    what effect your color settings will have.\n
+
+    \nThis doesn\'t exist in 10% mode, because it just wouldn\'t make
+    sense.
+  </string>
+  <string formatted="false" name="pref_red">استفاده از آیکون قرمز</string>
+  <string formatted="false" name="pref_red_summary">استفاده از رنگ قرمز هنگام کم بودن شارژ؟</string>
+  <string formatted="false" name="pref_red_help">
+    Whether or not to use a red icon below the specified threshold.
+  </string>
+  <string formatted="false" name="pref_red_thresh">آستانه قرمز رنگ</string>
+  <string formatted="false" name="pref_red_thresh_summary">آیکون قرمز در شارژ پایین تر از درصد:</string>
+  <string formatted="false" name="pref_red_thresh_summary10">آیکون قرمز در شارژ پایین تر از درصد:</string>
+  <string formatted="false" name="pref_red_thresh_help">Specifies the charge level which
+    the icon should turn red below (or <i>at</i>, in 10% Mode).\n
+
+    \nThe options for the red threshold include all the values (in
+    multiples of 5) for which there are red icons available.\n
+
+    \nIn 10% Mode, things work slightly differently but should be
+    self-explanatory.
+  </string>
+  <string formatted="false" name="pref_amber">استفاده از آیکون کهربایی</string>
+  <string formatted="false" name="pref_amber_summary">از آیکون کهربایی هنگام شارژ متوسط استفاده شود؟</string>
+  <string formatted="false" name="pref_amber_help">استفاده یا عدم استفاده از آیکون کهربایی در وضعیت کمتر از آستانه مشخص شده</string>
+  <string formatted="false" name="pref_amber_thresh">آستانه کهربایی</string>
+  <string formatted="false" name="pref_amber_thresh_summary">آیکون کهربایی در درصد شارژ زیر:</string>
+  <string formatted="false" name="pref_amber_thresh_summary10">آیکون کهربایی در درصد باتری پایین تر از:</string>
+  <string formatted="false" name="pref_amber_thresh_help">Specifies the charge level
+    which the icon should turn amber below (or <i>at</i>, in 10%
+    Mode).\n
+
+    \nThe options for the amber threshold include all the values (in
+    multiples of 5) for which there are amber icons available,
+    starting 5 percentage points above the red threshold (if there is
+    one).  For example, if you have the red threshold set to 15, then
+    your lowest option here will be 20.\n
+
+    \nIn 10% Mode, things work slightly differently but should be
+    self-explanatory.
+  </string>
+  <string formatted="false" name="pref_green">استفاده از آیکون سبز</string>
+  <string formatted="false" name="pref_green_summary">استفاده از آیکون سبز هنگام شارژ زیاد؟</string>
+  <string formatted="false" name="pref_green_help">
+    Whether or not to use a green icon at or above the specified threshold.
+  </string>
+  <string formatted="false" name="pref_green_thresh">Green Threshold</string>
+  <string formatted="false" name="pref_green_thresh_summary">Green icon at or above what charge percentage:</string>
+  <string formatted="false" name="pref_green_thresh_help">Specifies the charge level
+    which the icon should be green at or above.\n
+
+    \nThe options for the green threshold include all the values (in
+    multiples of 5) for which there are green icons available,
+    starting at the highest active threshold you have set for red or
+    amber.  For example, if you have the amber threshold set to 40,
+    then your lowest option here will be 40.\n
+
+    \nIn 10% Mode, things work slightly differently but should be
+    self-explanatory.
+  </string>
+  <string formatted="false" name="pref_cat_device_specific">تنظیمات مخصوص گوشی</string>
+  <!--string name="pref_cat_device_specific_help"></string-->
+  <string formatted="false" name="pref_ten_percent_mode">حالت 10درصد</string>
+  <string formatted="false" name="pref_ten_percent_mode_summary">ابتدا راهنما را بخوانید!</string>
+  <string formatted="false" name="pref_ten_percent_mode_help">
+    <b>Note:</b>
+    Checking or unchecking this will reset your icon color settings!\n
+
+    \nThis setting cleans up the Icon Color settings to make more sense
+    on devices that only show their charge level in 10% increments.
+    According to user reports, that includes these devices:\n
+
+    \n• Motorola Droid (original)
+    \n• Motorola Droid X
+    \n• Motorola Droid 2
+    \n• Motorola Defy
+    \n• Samsung Moment\n
+
+    \nAs far as I\'m aware, all other devices report every 1%, and so
+    should <i>not</i> turn this on.
+  </string>
+  <string formatted="false" name="alarms_overview">مرور هشدارها</string>
+  <string formatted="false" name="alarms_overview_help">
+    This page allows you to add new alarms, quickly enable or disable
+    existing alarms, or delete alarms.\n
+
+    \nTo add a new alarm, press \"Add alarm\" — this will create a new
+    alarm and take you to the alarm settings page, where you can
+    control the settings for the new alarm.  See the help on that page
+    for more details.\n
+
+    \nBelow the \"Add alarm\" button is a list of any alarms you have
+    created.\n
+
+    \n• To edit an existing alarm, just press it.
+    \n• To delete an alarm, long-press it, then select \"Delete
+    Alarm\".  (You can also delete an alarm from the individual alarm
+    settings page by pressing MENU then \"Delete Alarm\".)
+    \n• To quickly toggle whether an alarm is enabled, press the alarm
+    clock icon to the left of the alarm text.  (You can also enable or
+    disable an alarm from the individual alarm settings page.)
+  </string>
+  <string formatted="false" name="pref_alarm_enabled">فعال سازی هشدار</string>
+  <!--string name="pref_alarm_enabled_summary"></string-->
+  <string formatted="false" name="pref_alarm_enabled_help">If you want to temporarily
+  disable an alarm without having to recreate it when you want it
+  again, you can turn it off and on either here or on the main alarms
+  page.
+  </string>
+  <string formatted="false" name="pref_cat_alarm_conditions">شرایط هشدار</string>
+  <string formatted="false" name="pref_cat_alarm_conditions_help">This is where you can
+  control what conditions trigger the alarm.
+  </string>
+  <string formatted="false" name="pref_alarm_type">نوع هشدار</string>
+  <string formatted="false" name="pref_alarm_type_summary">راه اندازی هشدار هنگامی که باتری:</string>
+  <string formatted="false" name="pref_alarm_type_help">There are currently five types
+    of alarm that you can choose from.\n
+
+    \nThe \"Becomes fully charged\" alarm will notify you when the
+    status of your battery changes from \"Charging\" to \"Fully
+    Charged\".  Note that on many devices, this isn\'t necessarily the
+    same thing as being at 100% charge.\n
+
+    \nThe charge and temperature alarms require you to set a threshold
+    below, after choosing that alarm type.\n
+
+    \nThe \"Health Fails\" alarm will notify you if your battery health
+    becomes something other than \"Unknown\" or \"Good Health\", as
+    reported by Android.
+  </string>
+  <string formatted="false" name="pref_alarm_threshold">آستانه</string>
+  <string formatted="false" name="alarm_pref_not_used">برای این گونه هشدار به کار نمی رود</string>
+  <string formatted="false" name="pref_alarm_threshold_summary">آستانه هشدار:</string>
+  <string formatted="false" name="pref_alarm_threshold_help">
+    For charge and temperature alarms, you need to set the temperature
+    or charge level that will trigger the alarm.
+  </string>
+  <string formatted="false" name="pref_cat_notification_settings">تنظیمات اعلان</string>
+  <string formatted="false" name="pref_cat_notification_settings_help">This is where you
+  can control various aspects of the alarm notification that is
+  created to notify you when an alarm has been triggered.
+  </string>
+  <string formatted="false" name="pref_alarm_ringtone">زنگ گوشی</string>
+  <!--string name="pref_alarm_ringtone_summary"></string-->
+  <string formatted="false" name="pref_alarm_ringtone_help">
+    Here you can control which sound to play when the alarm is
+    triggered.  Select \'Silent\' if you don\'t want a sound to be
+    played.
+  </string>
+  <string formatted="false" name="silent">بیصدا</string>
+  <string formatted="false" name="pref_alarm_vibrate">لرزش</string>
+  <!--string name="pref_alarm_vibrate_summary"></string-->
+  <string formatted="false" name="pref_alarm_vibrate_help">
+    If all goes well, setting this option will make the device vibrate
+    when the alarm is triggered, unless the device is in Silent Mode,
+    unless you have the device set up to vibrate even in Silent Mode.
+    In other words, it should do what you expect.  Please email me if
+    something goes astray.
+  </string>
+  <string formatted="false" name="pref_alarm_lights">نور فلش</string>
+  <!--string name="pref_alarm_lights_summary"></string-->
+  <string formatted="false" name="pref_alarm_lights_help">
+    Sets whether the notification should enable the device\'s default
+    lights.  This generally flashes an LED or trackball.  Note that
+    every Android device I\'ve used has been slightly buggy in this
+    department.  If you have this checked, then the notification will
+    request Android to flash lights, but it might not always actually
+    happen.
+  </string>
+  <string formatted="false" name="boot_pref_always">همیشه</string>
+  <string formatted="false" name="boot_pref_never">هرگز</string>
+  <string formatted="false" name="boot_pref_if_running">اگر هنگام خاموشی در حال اجرا بود</string>
+  <string formatted="false" name="status_dur_always">همیشه</string>
+  <string formatted="false" name="status_dur_after_1h">بعد از یک ساعت</string>
+  <string formatted="false" name="status_dur_after_2h">بعد از دو ساعت</string>
+  <string formatted="false" name="status_dur_after_3h">بعد از سه ساعت</string>
+  <string formatted="false" name="status_dur_after_6h">بعد از شش ساعت</string>
+  <string formatted="false" name="status_dur_after_12h">بعد از دوازده ساعت</string>
+  <string formatted="false" name="age_1_day">یک روز</string>
+  <string formatted="false" name="age_2_days">دو روز</string>
+  <string formatted="false" name="age_4_days">چهار روز</string>
+  <string formatted="false" name="age_1_week">یک هفته</string>
+  <string formatted="false" name="age_2_weeks">دو هفته</string>
+  <string formatted="false" name="age_3_weeks">سه هفته</string>
+  <string formatted="false" name="age_4_weeks">چهار هفته</string>
+  <string formatted="false" name="notification_priority_max">بیشترین</string>
+  <string formatted="false" name="notification_priority_high">زیاد</string>
+  <string formatted="false" name="notification_priority_default">پیش فرض</string>
+  <string formatted="false" name="notification_priority_low">کم</string>
+  <string formatted="false" name="notification_priority_min">کمترین</string>
+  <string formatted="false" name="icon_set_classic">کلاسیک</string>
+  <string formatted="false" name="icon_set_plain">عدد خام</string>
+  <string formatted="false" name="icon_set_smaller">عدد کوچکتر</string>
+  <string name="uninstall">حذف کننده</string>
+  <!-- menuPoPup -->
+  <string name="usr">برنامه های کاربر</string>
+  <string name="mn_rateus">امتیازدهی</string>
+  <string name="mn_sharethisapp">به اشتراک گذاری برنامه</string>
+  <string name="mn_moreapp">برنامه های بیشتر</string>
+  <string name="mn_feedback">ارسال بازخورد</string>
+  <string name="mn_exit">خروج</string>
+  <!-- Developer name-->
+  <string name="namedev">SourceBaz Developer</string>
+  <string name="accept">قبول</string>
+  <string name="access_camera_title">می تواند به دوربین دسترسی داشته باشد</string>
+  <string name="access_fine_message">این برنامه به موقعیت دقیق خود دسترسی دارد و می تواند یک ریسک امنیتی باشد</string>
+  <string name="action_settings">تنظیمات</string>
+  <string name="activity_name_pattern">Start.*cmp=([\w\._]*)/([\w\._]*)</string>
+  <string name="ads_message">تبلیغات در قالب بنر و گرافیک همانند سایر برنامه های رایگان نمایش داده می شوند</string>
+  <string name="answer_is_not_empty">جواب خالی نیست</string>
+  <string name="app">برنامه ها</string>
+  <string name="app_lock">قفل برنامه</string>
+  <string name="app_name">آنتی ویروس و بهینه ساز باطری</string>
+  <string name="application">برنامه</string>
+  <string name="application_capital">برنامه</string>
+  <string name="applocker_running">ویروس یابی درحال اجرا است</string>
+  <string name="applocker_service">سرویس ویروس یابی</string>
+  <string name="apps">برنامه ها</string>
+  <string name="apps_and_system">Apps &amp; System</string>
+  <string name="apps_ignored">برنامه های رها شده</string>
+  <string name="apps_running">برنامه های درحال اجرا</string>
+  <string name="apps_with_privacy_issues">Apps with privacy issues</string>
+  <string name="auto_scan">اسکن اتوماتیک</string>
+  <string name="basic_information">اطلاعات پایه</string>
+  <string name="boost">ارتقا</string>
+  <string name="booster">ارتقا دهنده</string>
+  <string name="browser_history">تاریخچه مرورگر</string>
+  <string name="browser_is_clean">مرورگر پاک است</string>
+  <string name="browser_privacy">حریم خصوصی مرورگر</string>
+  <string name="bt_scan">اسکن</string>
+  <string name="cache_junk">Cache Junk</string>
+  <string name="call_phone_message">این برنامه می تواند بدون اجازه شما تماس تلفنی برقرار کند و منجر به افزایش هزینه شود و یک ریسک امنیتی بزرگ است</string>
+  <string name="camera_message">این برنامه به دوربین دسترسی دارد و یک ریسک امنیت است</string>
+  <string name="can_make_call_title">می تواند تماس بگیرد</string>
+  <string name="charging_boost">ارتقای شارژ شدن</string>
+  <string name="clean">پاک کردن</string>
+  <string name="cpu">پردازنده</string>
+  <string name="create_shortcuts">ایجاد میانبر</string>
+  <string name="detecting_dangerous">یافتن موارد خطرناک</string>
+  <string name="dialog_trust_app">آیا می خواهید به این برنامه اعتماد کنید؟</string>
+  <string name="done">انجام شد</string>
+  <string name="edit_applocker">ویرایش قفل گذار برنامه</string>
+  <string name="edit_password">ویرایش رمز</string>
+  <string name="edit_the_unlock_password">ویرایش رمز بازگشایی</string>
+  <string name="enable">فعال سازی</string>
+  <string name="enable_applocker">فعال سازی قفل گذار برنامه</string>
+  <string name="enable_noah_security">فعال سازی امنیت نوح</string>
+  <string name="enter_old_password">وارد کردن رمز قدیمی</string>
+  <string name="enter_password_again">ورود مجدد رمز</string>
+  <string name="enter_to_solve_problems">بروز مشکل. برای رفع آن کلیک کنید</string>
+  <string name="enter_your_answer">جواب خود را وارد کنید</string>
+  <string name="external_storage">حافظه خارجی</string>
+  <string name="facebook_app_id">301320266895192</string>
+  <string name="feedback">بازخورد</string>
+  <string name="float_window">پنجره شناور</string>
+  <string name="force_stop">بستن اجباری</string>
+  <string name="forgot_passwoord">فراموشی رمز</string>
+  <string name="forgot_password">فراموشی رمز</string>
+  <string name="found">پیدا شد</string>
+  <string name="freeable">قابل آزاد سازی</string>
+  <string name="freeable_memory">حافظه قابل آزاد سازی</string>
+  <string name="has_been_scanned">مشکلاتی دارد.</string>
+  <string name="has_no_threats">برای باز کردن امن است.</string>
+  <string name="high_risk">ریسک بالا</string>
+  <string name="if_you_forget_your_unlock_pattern_you_can_reset_it_bt_answering_the_security_question">If you forget your unlock pattern, you can reset it bt answering the Security Question</string>
+  <string name="imei">سریال دستگاه</string>
+  <string name="in_danger">در خطر</string>
+  <string name="installedGPlay_message">نصب برنامه ها از منابع ناشناخته می تواند ریسک امنیتی داشته باشد. به تنظیمات گوشی رفته و آن را غیرفعال کنید</string>
+  <string name="introduction">معرفی</string>
+  <string name="intruder_selfie">Intruder selfie</string>
+  <string name="is_secure">برای باز شدن امن است.</string>
+  <string name="issues">مسائل</string>
+  <string name="junk_files">JUNK FILES</string>
+  <string name="junk_found">JUNK FOUND</string>
+  <string name="language_settings">تنظیمات زبان</string>
+  <string name="loading">بارگذاری...</string>
+  <string name="location_shared">اشتراک گذاری موقعیت مکانی</string>
+  <string name="lock_your_apps_so_that_no_one_can_snoop_on">Lock your apps so that no one can snoop on</string>
+  <string name="locked">قفل شده</string>
+  <string name="logcat_clear_command">logcat -c</string>
+  <string name="logcat_command">logcat ActivityManager:I *:S</string>
+  <string name="medium_risk">ریسک متوسط</string>
+  <string name="memory">حافظه</string>
+  <string name="memory_boost">ارتقای حافظه</string>
+  <string name="messenger_send_button_text">ارسال</string>
+  <string name="minutes_of_time_before_the_app_is_relocked">دقیقه های که طول می کشد تا برنامه دوباره قفل شود</string>
+  <string name="more_app">برنامه های بیشتر</string>
+  <string name="more_than">بیشتر از</string>
+  <string name="navigation_drawer_close">بستن کشوی ناوبری</string>
+  <string name="navigation_drawer_open">بازکردن کشوی ناوبری</string>
+  <string name="no">نه</string>
+  <string name="noah_security_use_accessibility">آزمایش</string>
+  <string name="not_now">الان نه</string>
+  <string name="notification">اعلان</string>
+  <string name="ok">تایید</string>
+  <string name="other">دیگر</string>
+  <string name="outgoing_calls_title">می تواند تماسهای خروجی را کنترل کند</string>
+  <string name="outgoing_phone_message">This app can see the number being dialed during an outgoing call with the option to redirect the call to a different number or abort the call altogether. This can add charges to data plan and is a HIGH privacy risk.</string>
+  <string name="password_is_not_required_after_unlocking_for_a_period_of_time">پس از قفل گشایی برای یک بازه زمانی، دیگر نیازی به رمز نیست</string>
+  <string name="patterns_do_not_match">الگوها مطابقت ندارند</string>
+  <string name="phone_boost">ارتقای تلفن</string>
+  <string name="phone_data_shared">اطلاعات تلفن به اشتراک گذاشته شد</string>
+  <string name="phone_info">اطلاعات تلفن</string>
+  <string name="please_select_and_answer_your_security_questions">لطفا سوالات امنیتی را انتخاب کنید و پاسخ دهید</string>
+  <string name="please_try_later">لطفا بعدا تلاش کنید</string>
+  <string name="privacy">حریم خصوصی</string>
+  <string name="problem_found">مشکل پیدا شد</string>
+  <string name="protect">محافظت</string>
+  <string name="question_or_answer_do_not_match">سوال و جواب مطابقت ندارند. دوباره تلاش کنید</string>
+  <string name="quick_setting">تنظیمات سریع</string>
+  <string name="quiet_notifications">اعلان بیصدا</string>
+  <string name="ram">رم</string>
+  <string name="rate_us">به ما امتیاز دهید</string>
+  <string name="read_history_bookmark_title">می تواند تاریخچه شما را بخواند</string>
+  <string name="read_history_message">This application can read your history bookmarks and is a risk for your privacy.</string>
+  <string name="read_phone_message">This app collects and sends SIM card details, including address book, mobile PIN, and call history. This can add charges to data plan and is a HIGH privacy risk.</string>
+  <string name="read_sms_message">This application can read your private SMS and is a risk for your privacy.</string>
+  <string name="read_your_sms">می تواند پیاک های شما را بخواند</string>
+  <string name="recommend_to_lock">توصیه برای قفل گذاری</string>
+  <string name="record_audio_message">این برنامه می تواند صدا ضبط کند و یک ریسک امنیتی است</string>
+  <string name="record_audio_title">می تواند صددا ضبط کند</string>
+  <string name="relock_policy">خط مشی قفل مجدد</string>
+  <string name="relock_timeout">زمان قفل مجدد</string>
+  <string name="remove_ignored_app_message">آیا میخواهید از لیست حذف کنید؟</string>
+  <string name="reset_your_password">رمز خود را ریست کنید</string>
+  <string name="rom">رام</string>
+  <string name="root_state">وضعیت روت</string>
+  <string name="run_first_analysis_to_check_threats">آنالیز اول را اجرا کنید تا نهدیدات را بیابید</string>
+  <string name="scanning_for_privacy">اسکن حریم خصوصی</string>
+  <string name="scanning_for_threat">اسکن تهدیدات</string>
+  <string name="sd_card">کارت حافظه</string>
+  <string name="search_menu_title">جستجو</string>
+  <string name="select_timeout">انتخاب مهلت</string>
+  <string name="send_sms_message">این برنامه می تواند پیامک ارسال کند و می تواند با افزایش هزینه داده شما شود و یک برنامه با ریسک بالاست.</string>
+  <string name="send_sms_title">می تواند پیامک بفرستد</string>
+  <string name="service_settings">تنظیمات سرویس</string>
+  <string name="set_a_new_password">تنظیم رمز جدید</string>
+  <string name="set_a_security_question">انتخاب سوال امنیتی</string>
+  <string name="settings">تنظیمات</string>
+  <string name="show_ignored_list">نمایش لیست صرفنظر شده ها</string>
+  <string name="skip_all">صرفنظر از همه</string>
+  <string name="someone_tries_to_open_your_app">شخصی درحال تلاش برای باز کردن برنامه شماست</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
+  <string name="stop_scanning">آیا از توقف اسکن مطمئنید؟</string>
+  <string name="storage">حافظه</string>
+  <string name="suggested">پیشنهاد شده</string>
+  <string name="system">سیستم</string>
+  <string name="system_app_unknown_app_menace_title">Unknown Sources Enabled</string>
+  <string name="system_app_usb_menace_title">USB Debugging Enabled</string>
+  <string name="system_os_version">System OS Version</string>
+  <string name="take_a_photo_of_someone_entering_an_incorrect_code">Take a photo of someone entering an incorrect code</string>
+  <string name="threat">تهدید</string>
+  <string name="title_ads">تبلیغات نمایش داده می شوند</string>
+  <string name="title_installedGPlay">منابع ناشناخته</string>
+  <string name="total_found">جمع یافت شده ها:</string>
+  <string name="transition_main_fragment_to_antivirus">سلام</string>
+  <string name="transition_problem_to_detail">سلام</string>
+  <string name="trusted_by_app">is a trusted application verified by AMS Antivirus.</string>
+  <string name="trusted_message">یک برنامه قابل اعتماد است.</string>
+  <string name="unknownApp_add_whitelist_message">Do you want to add Unknown Sources to white list?</string>
+  <string name="unknownApp_message">Installing apps from unknown sources can lead to malware. Tap Open Settings and then disable Unknown Sources.</string>
+  <string name="unknownApp_remove_whitelist_message">Do you want to remove Unknown Sources from white list?</string>
+  <string name="update">بروزرسانی</string>
+  <string name="usb_add_whitelist_message">Do you want to add USB Debugging to white list?</string>
+  <string name="usb_message">Enabling USB debugging is not recommended unless you use your device for software development purposes. Tap Open Settings and disable USB debugging to protect your device.</string>
+  <string name="usb_remove_whitelist_message">Do you want to remove USB Debugging from white list?</string>
+  <string name="usb_title">Unsecure Setting</string>
+  <string name="user_experience_program">User Experience Program</string>
+  <string name="vibrate_on_touch">لرزش با لمس</string>
+  <string name="vibrate_when_buttons_are_pressed">لرزش هنگام فشردن دکمه ها</string>
+  <string name="warning">هشدار</string>
+  <string name="write_history_bookmark_title">می تواند تاریخچه بنویسد</string>
+  <string name="write_history_message">This application can write your history bookmarks and is a risk for your privacy.</string>
+  <string name="write_sms_message">This application can write SMS. This can add charges to data plan and is a MEDIUM privacy risk.</string>
+  <string name="write_sms_title">می تواند پیامک بنویسد</string>
+  <string name="you_are_safe">شما محافظت شدید</string>
+  <string name="abc_font_family_body_1_material">sans-serif</string>
+  <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+  <string name="abc_font_family_button_material">sans-serif-medium</string>
+  <string name="abc_font_family_caption_material">sans-serif</string>
+  <string name="abc_font_family_display_1_material">sans-serif</string>
+  <string name="abc_font_family_display_2_material">sans-serif</string>
+  <string name="abc_font_family_display_3_material">sans-serif</string>
+  <string name="abc_font_family_display_4_material">sans-serif-light</string>
+  <string name="abc_font_family_headline_material">sans-serif</string>
+  <string name="abc_font_family_menu_material">sans-serif</string>
+  <string name="abc_font_family_subhead_material">sans-serif</string>
+  <string name="abc_font_family_title_material">sans-serif-medium</string>
+  <string name="create_calendar_message">اجازه دهید یک اگهی ایجاد کنم</string>
+  <string name="create_calendar_title">ایجاد رویداد در تقویم</string>
+  <string name="debug_menu_ad_information">اطلاعات تبلیغ</string>
+  <string name="debug_menu_creative_preview">نمایش خلاقانه</string>
+  <string name="debug_menu_title">انتخاب نوع اشکال زدایی</string>
+  <string name="debug_menu_troubleshooting">عیب یابی</string>
+  <string name="decline">امتناع</string>
+  <string name="batteryads">1</string>
+  <string name="rate_dialog_str_content">امنیت موبایل را دوست دارید؟ به ما امتیاز 5 ستاره بدهید!</string>
+  <string name="b">ca-app-pub-1860701583877240/6700976047</string>
+  <string name="bu">ca-app-pub-1860701583877240/6700976047</string>
+  <string name="nat">ca-app-pub-1860701583877240/4726738763</string>
+  <string name="intreal">ca-app-pub-1860701583877240/3835139553</string>
+  <string name="natreal">ca-app-pub-1860701583877240/4726738763</string>
+  <string name="Home">خانه</string>
+  <string name="Cleaner">پاک کننده</string>
+  <string name="Booster">ارتقادهنده</string>
+  <string name="applock">قفل گذار برنامه</string>
+  <string name="IgnoredList">لیست نادیده گرفته شده</string>
+  <string name="InfosDevice">Infosدستگاه</string>
+  <string name="Share">به اشتراک گذاری</string>
+  <string name="Rate">امتیازدهی</string>
+  <string name="Privacy">حریم خصوصی</string>
+  <string name="Privacytext">
+        Privacy Policy \n \n
+
+        Overview
+        Your privacy is very important to us. We keep the following fundamental guidelines when operating our service (website and apps): \n \n
+
+We don\t ask you for personal information unless we truly need it.\n
+We don\t store sensitive personal information on our servers. \n  \n
+The applications do not send us any critically important information like your login credentials; instead those are encrypted and stored locally in your device.
+Your social information displayed to other people is subjected to the restrictions and permissions that you have defined in your account in each of your social networks.
+We don\t share your information with anyone except to comply with the law. \n \n
+We may use non-personal statistical information to analyze the use in our website and apps, and that\s in order to improve our service; diagnose technical problems, improve UI and features, maintain security, etc.
+The Privacy Policy applies to all users of the Service, including developers, users who are also contributors of content, information, and other materials or services.
+
+
+</string>
+  <string name="start_welcome_desc">تلفن خود را ایمن و محافظت کنید</string>
+  <string name="start_welcome_button">انجام دهیم</string>
+  <string name="start_drawing_over_title">کشیدن بر روی برنامه ها را فعال کن</string>
+  <string name="start_system_setting_des">قبل از شروع، باید مجوز دسترسی به تنظیمات گوشی به این برنامه داده شود </string>
+  <string name="start_system_setting_button">دسترسی به امنیت گوشی فعال شود</string>
+  <string name="start_drawing_over_apps_desc_disabled">قبل از شروع، باید مجوز کشیدن بر روی سایر برنامه ها به این برنامه داده شود</string>
+  <string name="start_drawing_over_apps_button_disabled">اجازه به برنامه برای کشیدن روی سایر برنامه ها</string>
+  <string name="start_drawing_over_apps_desc_enabled">خیلی خوب! ما مجوز داریم!</string>
+  <string name="start_drawing_over_apps_button_enabled">بعدی</string>
+  <string name="start_stystem_setting">دسترسی به امنیت گوشی فعال شود</string>
+  <string name="well_done">انجام شد</string>
+  <string name="info">Info</string>
+  <string name="app_lock_name">قفل برنامه</string>
+  <string name="rate">امتیازدهی</string>
+  <string name="progress">در حال اسکن</string>
+  <string name="banner_ad_unit_id">ca-app pub-9265497701328719/9154974616</string>
+  <string name="interstial_ad_unit_id">ca-app-pub-9265497701328719/3108441014</string>
+  <string name="application_name">App Locker</string>
+  <!-- All strings for MainActivityantivirus -->
+  <string name="main_share">به اشتراک گذاری</string>
+  <!-- All Strings for applist -->
+  <!-- Change password activity -->
+  <string name="change_pass_tit">تغییر رمز</string>
+  <string name="change_pass_desc">رمز جدید را وارد کنید (ترجیحا 4 حرف یا بیشتر)</string>
+  <string name="change_pass_desc_confirmation">تایید رمز</string>
+  <string name="change_pass_not_match">رمزها با هم مطابقت ندارد</string>
+  <string name="change_pass_changed">رمز با موفقیت تغییر کرد</string>
+  <string name="change_pass_not_changed">خطا در تغییر رمز</string>
+  <string name="change_pass_empty">خطا: رمز خالی است</string>
+  <string name="select_tit">برنامه های مدنظر برای قفل شدن</string>
+  <!-- All strings for LockActivity -->
+  <string name="locker_footer_default">برای بازکردن قفل، رمز را وارد کنید</string>
+  <string name="locker_enter_password">رمز را وارد کنید</string>
+  <string name="upper_ok">تایید</string>
+  <string name="upper_back">بازگشت</string>
+  <string name="welcome_tit">به قفل گذار خوش آمدید!</string>
+  <string name="welcome_message">قبل از قفل کردن برنامه ها شما به یک رمز احتیاج دارید. آیا الان شروع می کنید؟</string>
+  <!-- END v1.07 Strings -->
+  <!-- BEGIN v1.08 Strings -->
+  <!-- This section represents Locker > Preferences -->
+  <string name="preferences_tit">اولویت ها</string>
+  <!-- The window title -->
+  <string name="main_preferences">اولویت ها</string>
+  <!-- The button in the main screen -->
+  <!-- clone of "locker_footer_default" -->
+  <string name="pref_def_lock_message">برای بازگشایی رمز را وارد کنید</string>
+  <!-- clone of "main_change_message -->
+  <string name="pref_tit_lock_message">پیام</string>
+  <!-- Changed from the original. Re-translate -->
+  <string name="pref_desc_lock_message">هنگام قفل شدن برنامه این پیتم ظاهر می شود</string>
+  <string name="pref_dlgmsg_lock_message">می توانید از %s بجای نام برنامه خود استفاده کنید</string>
+  <!-- Keep it short! -->
+  <string name="pref_tit_start_boot">شروع در هنگام بوت</string>
+  <!-- Descriptions can be longer -->
+  <string name="pref_desc_start_boot">پس از ریستارت گوشی، شروع به قفل کردن برنامه ها کن</string>
+  <string name="pref_tit_relock_after_screenoff">قفل مجدد پس از خاموشی صفحه نمایش</string>
+  <string name="pref_desc_relock_after_screenoff">پس از خاموشی صفحه نمایش، دوباره رمز بپرس</string>
+  <string name="old_pref_tit_vibrate_password">لرزش</string>
+  <string name="old_pref_desc_vibrate_password">لرزش هنگام لمس دکمه ها</string>
+  <string name="pref_tit_performance">عملکرد</string>
+  <string name="pref_desc_performance">عملکرد بالا، مصرف انرژی بیشتری خواهد داشت و عملکرد پایین، انرژی کمتری مصرف می کند</string>
+  <string name="pref_list_perf_very_high">بسیار زیاد</string>
+  <string name="pref_list_perf_high">زیاد</string>
+  <string name="pref_list_perf_normal">نرمال</string>
+  <string name="pref_list_perf_low">کم</string>
+  <string name="pref_list_perf_very_low">صرفه جویی انرژی</string>
+  <string name="old_pref_tit_delay_status">تاخیر قفل</string>
+  <string name="old_pref_desc_delay_status">هنگامی که رمز صحیح را وارد کنید، رمز بعدی با مقداری تاخیر پرسیده می شود</string>
+  <string name="old_pref_tit_delay_time">زمان تاخیر</string>
+  <string name="old_pref_dlgmsg_delay_time">بعد از این مدت زمان به ثانیه مجددا رمز پرسیده خواهد شد</string>
+  <string name="applist_lock_all">همه</string>
+  <string name="applist_unlock_all">هیچکدام</string>
+  <string name="main_rate">امتیازدهی</string>
+  <!-- END v1.08 Strings -->
+  <!-- BEGIN v2.0 Strings -->
+  <!-- For android 4.2 and below, the system will not kill Locker -->
+  <string name="pref_desc_show_notification">هنگامی که برنامه ها قفل هستند، اعلام کن</string>
+  <!-- Since Android 4.3, system kills app if it doesn't show a notification, we should warnt he users about this -->
+  <string name="notification_title">قفل فعال است</string>
+  <string name="notification_state_locked">برای غیرفعال کردن قفل کلیک کنید</string>
+  <!-- END v2.0 Strings -->
+  <!-- BEGIN v2.0.6 Strings -->
+  <!-- All pref_tit_xxx must be short (2 words max || length < 20) -->
+  <!-- pref_desc_xxx can be like 3 lines or more if neccesary -->
+  <!-- Preference categories (Keep short) -->
+  <string name="pref_tit_cat_general">عمومی</string>
+  <string name="pref_tit_cat_notification">اعلان ها</string>
+  <string name="pref_tit_cat_launcher">شروع</string>
+  <!--  -->
+  <string name="old_pref_tit_dial_launch">شروع با تماس</string>
+  <string name="old_pref_desc_dial_launch">هنگامی که این بخش فعال باشد، شما می توانید با شماره گیری #رمز به قفل گذار دسترسی پیدا کنید. به عنوان مثال برای دسترسی به قفل گذار اگر رمز شما 1111 است، شماره #1111 را شماره گیری کنید</string>
+  <string name="pref_tit_hide_launcher_icon">مخفی کردن آیکون</string>
+  <string name="pref_desc_hide_launcher_icon">When this option is active, Locker will hide it\'s icon from the apps. You can remove shortcuts on your home screen manually (Requires reboot. Forces Start with call)</string>
+  <!-- Updated text for "Notification" -->
+  <string name="pref_tit_show_notification">نمایش اعلان ها</string>
+  <!-- Changelog -->
+  <string name="cl_title">تازه ها</string>
+  <string name="pref_tit_cat_about">درباره این برنامه</string>
+  <!-- END v2.0.6 Strings -->
+  <!-- BEGIN v2.0.8 Strings -->
+  <!-- PASSWORD -->
+  <string name="password_change_tit">تغییر رمز</string>
+  <string name="password_change_head">رمز بازگشایی جدیدی وارد کنید</string>
+  <string name="password_change_confirm">مجددا رمز را جهت تایید وارد کنید</string>
+  <string name="password_change_saved">رمز با موفقیت تغییر کرد</string>
+  <string name="password_change_error">خطا در ذخیره رمز</string>
+  <string name="password_change_not_match">رمزها مطابقت ندارند</string>
+  <string name="password_empty">رمز نمی تواند خالی باشد</string>
+  <!-- PATTERN -->
+  <string name="pattern_change_tit">تغییر الگو</string>
+  <string name="pattern_detected">الگو یافت شد</string>
+  <string name="pattern_change_head">یک الگوی گشایش جدید بکشید</string>
+  <string name="pattern_change_confirm">الگو را برای تأیید مجددا بکشید</string>
+  <string name="pattern_change_saved">الگو با موفقیت تغییر کرد</string>
+  <string name="pattern_change_error">خطا در ذخیره الگو</string>
+  <string name="pattern_change_not_match">عدم تطابق الگوها</string>
+  <!--  -->
+  <string name="button_confirm">تأیید</string>
+  <string name="button_continue">بعدی</string>
+  <string name="button_back">بازگشت</string>
+  <!-- Buttons have short text! (2 words or so) -->
+  <string name="main_button_set_password">تغییر رمز</string>
+  <string name="main_button_set_pattern">تغییر الگو</string>
+  <string name="pref_list_lock_type_password">رمز</string>
+  <string name="pref_list_lock_type_pattern">الگو</string>
+  <string name="pref_tit_lock_type">نوع قفل</string>
+  <string name="pref_desc_lock_type">اکنون: %s</string>
+  <!-- VersionChecker -->
+  <string name="vc_update">بروزرسانی</string>
+  <string name="vc_exit">خروج</string>
+  <string name="vc_tit_new_version">بروزرسانی</string>
+  <string name="vc_tit_unsupported">متاسفم</string>
+  <string name="vc_msg_new_version">نسخه جدیدی موجود است. آیا الان بروزرسانی می کنید؟</string>
+  <string name="vc_msg_unsupported">نسخه مورد استفاده کنونی شما بسیار قدیمی است و نیاز به بروزرسانی دارد. لطفا برنامه را بروزرسانی کنید و از آن استفاده نمایید.</string>
+  <!-- Settings -->
+  <string name="pref_tit_cat_password">تنظیمات رمز</string>
+  <string name="pref_tit_cat_pattern">تنظیمات الگو</string>
+  <string name="pref_tit_delay_status">خروج کوتاه</string>
+  <string name="pref_desc_delay_status">شما می توانید از برنامه خارج شوید و در بازه زمانی تعریف شده بدون استفاده از رمز مج=ددا وارد برنامه شوید</string>
+  <string name="pref_tit_delay_time">زمان خروج کوتاه</string>
+  <!-- Seconds is important, not just "time" -->
+  <string name="pref_dlgmsg_delay_time">مدت زمان (ثانیه) که پس از آن برنامه مجددا قفل خواهد شد</string>
+  <string name="pref_tit_orientation">جهت</string>
+  <!-- Password specific settings -->
+  <string name="pref_tit_vibrate_password">لرزش</string>
+  <string name="pref_desc_vibrate_password">لرزش هنگام زدن دکمه</string>
+  <!-- Pattern specific settings -->
+  <string name="pref_tit_vibrate_pattern">لرزش</string>
+  <string name="pref_desc_vibrate_pattern">لرزش هنگام لمس الگوها</string>
+  <string name="pref_tit_pattern_stealth">حالت مخفی</string>
+  <string name="pref_desc_pattern_stealth">الگو مخفی خواهد بود</string>
+  <string name="pref_tit_switch_buttons">جابجایی دکمه ها</string>
+  <string name="pref_desc_switch_buttons">جابجایی مکان دکمه های تأیید و لغو</string>
+  <string name="pref_list_orientation_portrait">عمودی</string>
+  <!-- TODO: Use android standards -->
+  <string name="pref_list_orientation_landscape">افقی</string>
+  <string name="pref_list_orientation_auto_rotate">چرخش خودکار</string>
+  <string name="pref_list_orientation_system">تنطیمات سیستم</string>
+  <!-- Beta -->
+  <string name="pref_tit_temp_wifi_unlock_state">Stop with wifi</string>
+  <string name="pref_desc_temp_wifi_unlock_state">When you connect to a specific wifi network, (such as home), the lock automatically stops</string>
+  <string name="pref_tit_temp_wifi_ssid">SSID (نام شبکه)</string>
+  <string name="pref_desc_temp_wifi_ssid">نام شبکه وایفای</string>
+  <string name="beta_tit">Beta</string>
+  <string name="beta_desc">This are experimental features which will be available in the future, but you can test them now.</string>
+  <!-- MainActivityantivirus -->
+  <string name="main_state_running">در حال اجرا</string>
+  <string name="main_state_not_running">عدم اجرا</string>
+  <!-- More prefs -->
+  <string name="pref_tit_dial_launch">شروع با تماس</string>
+  <string name="pref_desc_dial_launch">با تماس با شماره دلخواه، به قفل گذار دسترسی پیدا کنید</string>
+  <string name="pref_tit_dial_launch_number">تعداد</string>
+  <string name="pref_desc_dial_launch_number">شماره ای که با شماره گیری آن، قفل گذار شروع بکار می کند (ما توصیه می کنیم که آن را با # شروع کنید. ).</string>
+  <string name="vc_later">بعدا</string>
+  <!-- END v2.0.8 Strings -->
+  <!-- BEGIN v2.0.2 -->
+  <string name="main_no_password">شما هنوز رمزی تعریف نکرده اید. آیا می خواهید رمز تعریف کنید؟</string>
+  <string name="main_setup">راه اندازی</string>
+  <string name="old_main_choose_lock_type">انتخاب نوع قفل</string>
+  <string name="main_no_locked_apps">شما برنامه قفل شده ای ندارید. آیا می خواهید چند برنامه اضافه کنید؟</string>
+  <!-- END v2.0.2 -->
+  <!-- BEGIN v2.1.1 -->
+  <string name="pref_tit_password_expiry">بیشترین زمان</string>
+  <string name="pref_desc_password_expiry">زمانی که باید رمز درست را وارد کنید</string>
+  <string name="pref_dlgmsg_password_expiry">زمان به ثانیه-0 یعنی نامحدود</string>
+  <string name="pref_tit_max_password_retries">بیشترین تلاش ها</string>
+  <string name="pref_desc_max_password_retries">تعداد دفعالت مجاز برای وارد کردن رمز</string>
+  <string name="pref_dlgmsg_max_password_retries">0 یعنی نامحدود</string>
+  <!-- END v2.1.1 -->
+  <!-- BEGIN v2.1.2 -->
+  <string name="pref_tit_pattern_color">رنگ الگو</string>
+  <string name="pref_desc_pattern_color">رنگ دایره های الگو</string>
+  <string name="pref_list_pattern_color_white">سفید</string>
+  <string name="pref_list_pattern_color_blue">آبی</string>
+  <string name="pref_list_pattern_color_green">سبز</string>
+  <string name="pref_tit_lockactivity_background">پس زمینه</string>
+  <string name="pref_desc_lockactivity_background">تصویر پس زمینه که هنگام بازکردن قفل برنامه ها نمایش داده می شود</string>
+  <string name="pref_tit_hide_notification_icon">پنهان کردن آیکون اعلان</string>
+  <string name="pref_desc_hide_notification_icon">این فقط آیکون اعلان را در نوار وضعیت مخفی می کند</string>
+  <!-- BEGIN 2203 -->
+  <string name="update_available">بروزرسانی در دسترس است</string>
+  <string name="update_needed">بروزرسانی مورد نیاز است</string>
+  <string name="update_available_msg">بروزرسانی جدیدی برای برنامه در دسترس است. نسخه کنونی تا %d روز دیگر فعال خواهد بود.</string>
+  <string name="update_needed_msg">این نسخه دیگر پشتیبانی نمی شود. لطفا به آخرین نسخه بروزرسانی کنید.</string>
+  <string name="update_button">بروز رسانی</string>
+  <string name="update_button_cancel">الآن نه</string>
+  <!--  -->
+  <!-- See background_locker_green -->
+  <string name="background_locker_blue">آبی</string>
+  <string name="background_locker_dark_blue">آبی تیره</string>
+  <string name="background_locker_red">قرمز</string>
+  <string name="background_locker_purple">بنفش</string>
+  <string name="background_locker_turquoise">فیروزه ای</string>
+  <string name="background_locker_orange">نارنجی</string>
+  <!-- BEGIN v2.1.2 Continuation -->
+  <string name="background_dialog_title">تغییر پس زمینه</string>
+  <string name="background_from_gallery">گالری</string>
+  <string name="background_locker_green">سبز</string>
+  <string name="background_changed">پس زمینه عوض شد</string>
+  <!-- BEGIN v2205 -->
+  <string name="pref_tit_ads">تبلیغات</string>
+  <string name="pref_desc_ads">اگر از قفل کننده راضی هستید، با فعال سازی تبلیغات از ما حمایت کنید<stirng></stirng></string>
+  <string name="pref_desc_ads_forced">اکنون نمیتوانید تبلیغات را غیرفعال کنید</string>
+  <!-- BEGIN v2300 -->
+  <!-- animations for the lock screen -->
+  <string name="pref_tit_cat_anim_show">انیمیشن ورود</string>
+  <string name="pref_tit_cat_anim_hide">انیمیشن خروج</string>
+  <string name="pref_tit_anim_millis">مدت زمان</string>
+  <string name="pref_desc_anim_millis">زمان انیمیشن به میلی ثانیه</string>
+  <string name="pref_tit_anim_type">نوع</string>
+  <string name="pref_desc_anim_type">
+  </string>
+  <string name="pref_list_anim_fade">محو شدن</string>
+  <string name="pref_list_anim_slide_right">لغزش به راست</string>
+  <string name="pref_list_anim_slide_left">لغزش به چپ</string>
+  <string name="pref_list_anim_none">غیرفعال</string>
+  <!-- BEGIN v2302 -->
+  <string name="background_default">پیشفرض</string>
+  <!-- Pro stuff -->
+  <string name="pro_b_main">Pro</string>
+  <string name="pro_window_title">امکانات pro</string>
+  <!--  -->
+  <string name="pro_ft_tit">امکانات نسخه pro:</string>
+  <string name="pro_ft_bg">تصویر پس زمینه دلخواه</string>
+  <string name="pro_ft_hide">برنامه قفل کننده را مخفی کن</string>
+  <string name="pro_ft_hide_notif">پنهان سازی اعلان ها</string>
+  <string name="pro_ft_pcolor">تغییر رنگ الگو</string>
+  <string name="pro_ft_short_exit">خروج کوتاه</string>
+  <string name="pro_ft_anim">انیمیشن ها</string>
+  <string name="pro_ft_more">موارد بیشتر به زودی</string>
+  <string name="pro_header">طرح خود را انتخاب کنید:</string>
+  <string name="pro_tit_ads">تبلیغات قفل کننده</string>
+  <string name="pro_desc_ads">All pro features are available and ads are shown</string>
+  <string name="pro_tit_free">قفل کننده رایگان</string>
+  <string name="pro_desc_free">امکانات نسخه pro در دسترس نیستند و تبلیغی نمایش داده نمی شود.</string>
+  <!--  -->
+  <string name="pro_tit_paid">Locker Pro</string>
+  <string name="pro_desc_paid">تمامی امکانات در دسترس خواهند بود و شما تبلیغی نمی بینید</string>
+  <!--  -->
+  <string name="pro_required">این یک امکان از نسخه کامل است. آیا می خواهید آن را به صورت رایگان فعال کنید؟</string>
+  <string name="pro_tofree_tit">حالت رایگان</string>
+  <string name="pro_tofree_msg">شما تمامی امکانات را از دست خواهید داد. آیا مطمئنید که می خواهید به حالت رایگان بروید؟</string>
+  <string name="applist_tit_apps">برنامه ها</string>
+  <string name="applist_tit_important">مهم</string>
+  <string name="applist_tit_system">سیستم</string>
+  <string name="applist_app_pkginstaller">نصب/پاک کردن برنامه</string>
+  <string name="applist_app_dialer">تماس دریافتی</string>
+  <string name="applist_app_sysui">وظایف اخیر</string>
+  <!-- BEGIN v2320 -->
+  <string name="nav_status">قفل</string>
+  <string name="nav_apps">برنامه ها</string>
+  <string name="nav_change">تغییر قفل</string>
+  <string name="nav_settings">تنظیمات</string>
+  <string name="nav_themes">تم ها</string>
+  <string name="nav_statistics">آمار</string>
+  <string name="nav_pro">Pro</string>
+  <string name="nav_test">آزمایش</string>
+  <string name="nav_photo">طاق عکس</string>
+  <string name="nav_video">طاق ویدئو</string>
+  <!--  -->
+  <string name="fragment_title_apps">برنامه ها</string>
+  <string name="fragment_title_settings">تنظیمات</string>
+  <string name="fragment_title_statistics">آمار</string>
+  <string name="fragment_title_themes">تم ها</string>
+  <string name="fragment_title_photovault">طاق عکس</string>
+  <string name="fragment_title_videovault">طاق ویدئو</string>
+  <string name="fragment_title_pro">Pro</string>
+  <string name="setup_new_lock">راه اندازی قفل جدید</string>
+  <string name="fragment_title_about">درباره</string>
+  <!--  -->
+  <string name="pref_tit_pattern_hide_error">مخفی کردن خطا</string>
+  <string name="pref_desc_pattern_hide_error">وقتی رمز اشتباه وارد شود، پیام خطا نمایش نده</string>
+  <string name="pref_tit_pattern_size">اندازه الگو</string>
+  <string name="pref_desc_pattern_size">تعداد سطر و ستون های الگو</string>
+  <!--  -->
+  <string name="locker_invalid_password">رمز اشتباه</string>
+  <string name="locker_invalid_pattern">الگوی اشتباه</string>
+  <!-- Recovery dialog -->
+  <string name="recovery_tit">کد بازیابی</string>
+  <string name="recovery_dlgmsg">کد بازیابی شما: %s\n خیلی مهم است که این شماره را (در صورتی که رمز خود را فراموش می کنید) برای خود ارسال کنید. می توانید این کد را مجددا در تنظیمات ببینید.</string>
+  <string name="recovery_code_send_button">ارسال</string>
+  <!-- Recovery preference -->
+  <string name="pref_tit_recovery_code">کد بازیابی</string>
+  <string name="pref_desc_recovery_code">کد جاری: %s</string>
+  <string name="pref_dlgmsg_recovery_code">کد جاری شما عبارتست از: %s</string>
+  <!-- Recovery intent chooser -->
+  <string name="recovery_intent_tit">ارسال کد بازیابی</string>
+  <string name="recovery_intent_message">کد بازیابی قفل برنامه قفل گذار شما \n برای اینکه قادر باشید مجددا به دستگاه خود دسترسی داشته باشید و رمز خود را ریست کنید، شماره زیر را شماره گیری کنید: %s</string>
+  <!-- Da menu -->
+  <string name="apps_menu_sort">مرتب سازی</string>
+  <string name="apps_menu_lock_all">قفل کردن همه</string>
+  <string name="apps_menu_unlock_all">بازکردن همه قفل ها</string>
+  <string name="apps_menu_search">جستجو</string>
+  <string name="apps_menu_search_hint">جستجوی برنامه ها</string>
+  <!-- Example: WhatsApp locked -->
+  <string name="apps_toast_locked_single">%s قفل شد</string>
+  <string name="apps_toast_locked_all">همه برنامه ها قفل شدند</string>
+  <string name="apps_toast_unlocked_single">%s باز شد</string>
+  <string name="apps_toast_unlocked_all">همه برنامه ها باز شدند</string>
+  <!-- BEGIN v2332 -->
+  <string name="nav_b_share">به اشتراگ گذاری</string>
+  <string name="nav_b_rate">امتیاز دهی</string>
+  <string name="lib_share_dlg_tit">به اشتراک گذاری قفل کننده</string>
+  <string name="lib_share_dlg_msg">اگر این برنامه را دوست دارید، با به اشتراک گذاری آن میان دوستان، به پیشرفت آن کمک کنید</string>
+  <!-- May be used for twitter -->
+  <string name="share_promo_text">برنامه قفل گذار که برنامه ها و اطلاعات شما را محافظت می کند در گوگل پلی ببینید: https://play.google.com/store/apps/details?id=com.studioninja.antivirusvault</string>
+  <!-- BEGIN v2335 -->
+  <string name="share_dlg_never">هرگز</string>
+  <string name="share_dlg_later">بعدا</string>
+  <!-- Androilib strings -->
+  <string name="lib_rate_dlg_tit">به برنامه ما امتیاز دهید</string>
+  <string name="lib_rate_dlg_msg">با نوشتن یک نقد بر روی گوگل پلی ما در در پیشرفت و افزایش امکانات برنامه حمایت کنید</string>
+  <!--  -->
+  <string name="lib_share_never">نه ممنون</string>
+  <string name="lib_share_later">بعدا</string>
+  <!-- About us -->
+  <string name="version">نسخه 1.2</string>
+  <string name="label_e">امنیت خود را محافظت کنید:</string>
+  <string name="descrption">Applocker can lock any apps you choose, with abundant options, protecting your privacy. App Locker can hide pictures and videos, App Locker empowers you to control photo and video access.
+
+With this app, you don\'t have to worry about your private information on your phone to be exposed to other people. You don\'t have to worry about your friends messing your phone up by changing the settings.
+\n\n
+Features:
+\n
+Smart Features\n
+\n✔ Lock System Apps - Gallery, SMS, Contacts, Gmail, Playstore, File Manager, Call, Dialer, Call Logs, You tube, Video player etc.
+\n✔ Lock Downloaded Apps - Whats App, Facebook, Instagram, WeChat, Snap Chat, Skype, BBM, Line, Twitter, Games, etc.
+\n✔ Lock Advanced Apps - Uninstall, Settings, Task manager, SD Folders etc.
+\n✔ A Vault to hide Photos &amp; Videos
+\n✔ Support theme, such as dark themes.
+\n✔ Hide App Icon
+\n✔ Lock incoming &amp; outgoing calls</string>
+</resources>
